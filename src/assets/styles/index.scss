@@ -1,0 +1,45 @@
+@import "./var";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alata', sans-serif;
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+
+/* -------------------------------- Mobile S -------------------------------- */
+@media only screen and (min-width: 0px) and (max-width: 425px) {
+    .wrapper {
+        min-height: 100vh;
+        padding: 1rem 0;
+    }
+}
+
+/* -------------------------------- Mobile L -------------------------------- */
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .wrapper {
+        min-height: 100vh;
+
+        padding: 3rem;
+    }
+}
+
+/* ---------------------------------- Tablet ---------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .wrapper {
+        min-height: 100vh;
+        padding: 5rem;
+    }
+}
+
+/* ---------------------------------- Laptop ---------------------------------- */
+@media only screen and (min-width: 1024px) {
+    .wrapper {
+        min-height: 100vh;
+        // position: relative;
+        padding: 8rem;
+    }
+}

@@ -1,0 +1,17 @@
+@import "../../../../assets/styles/_var.scss";
+
+.link {
+    color: $color-success;
+
+    &.dark {
+        color: $color-dark;
+    }
+
+    &.fail {
+        color: $color-fail;
+    }
+
+    &.light {
+        color: $color-light;
+    }
+}

@@ -1,0 +1,14 @@
+@import "../../../../../assets/styles/_var.scss";
+
+.input-text {
+
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+
+    &:focus {
+        outline: none;
+        background-color: rgba($color-light, 0.5);
+    }
+}

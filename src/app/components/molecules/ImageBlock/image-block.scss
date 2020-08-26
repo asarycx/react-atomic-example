@@ -1,0 +1,57 @@
+@import "../../../../assets/styles/_var";
+
+.image-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    // background-color: ;
+
+    .image-block__item {
+        max-width: 600px;
+        margin: 10px;
+
+    }
+}
+
+/* -------------------------------- Mobile S -------------------------------- */
+@media only screen and (min-width: 0px) and (max-width: 425px) {
+    .image-block {
+        .image-block__item {
+            max-width: 100%;
+            margin: 10px;
+
+        }
+    }
+}
+
+/* -------------------------------- Mobile L -------------------------------- */
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .image-block {
+        .image-block__item {
+            max-width: 100%;
+            margin: 10px;
+
+        }
+    }
+}
+
+/* ---------------------------------- Tablet ---------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .image-block {
+        .image-block__item {
+            max-width: 300px;
+            margin: 10px;
+
+        }
+    }
+}
+
+/* ---------------------------------- Laptop ---------------------------------- */
+@media only screen and (min-width: 1024px) {
+    .image-block {
+        .image-block__item {
+            max-width: 350px;
+            margin: 10px;
+        }
+    }
+}

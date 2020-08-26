@@ -1,0 +1,48 @@
+@import "../../../../assets/styles/var";
+
+.card {
+    display: grid;
+    border: 1px solid black;
+    padding: 1em;
+
+    .card__header {
+        display: flex;
+        flex-wrap: no-wrap;
+        justify-content: start;
+        margin-right: auto;
+
+        &.card__header--center {
+            margin: auto;
+        }
+
+        &.card__header--left {
+            margin-right: 0;
+            margin-right: auto;
+        }
+
+        &.card__header--right {
+            margin-left: auto;
+            margin-right: 0;
+        }
+
+        .card__title,
+        .card__image {
+            margin: auto 0;
+        }
+
+        .card__text {
+            margin: 0 10px;
+        }
+
+        .card__image {}
+    }
+
+    .card__body {}
+
+    .card__link {
+        margin: 0 0 0 auto;
+        // width: 100%;
+        width: fit-content;
+        display: block;
+    }
+}

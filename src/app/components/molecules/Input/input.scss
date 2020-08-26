@@ -1,0 +1,17 @@
+@import "../../../../assets/styles/_var";
+
+.input {
+    display: flex;
+    align-content: flex-start;
+
+    .input__field {
+        // display: inline-block;
+        width: 100%;
+        // flex: 0 1 100%;
+    }
+
+    .input__label {
+        display: inline-block;
+        flex: 0 1 100px;
+    }
+}

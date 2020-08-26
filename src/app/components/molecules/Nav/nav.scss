@@ -1,0 +1,100 @@
+@import "../../../../assets/styles/_var";
+
+.nav {
+
+    background-color: white;
+}
+
+
+
+/* -------------------------------- Mobile S -------------------------------- */
+@media only screen and (min-width: 0px) and (max-width: 425px) {
+    .nav {
+        display: flex;
+        align-content: center;
+        // position: absolute;
+        position: sticky;
+        top: 0;
+        // left: 0;
+        // bottom: 0;
+        // right: 0;
+        justify-content: space-between;
+
+
+        .nav__right-menu,
+        .nav__left-menu {
+            display: flex;
+        }
+
+        padding: 0;
+    }
+}
+
+/* -------------------------------- Mobile L -------------------------------- */
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .nav {
+        display: flex;
+        align-content: center;
+        // position: absolute;
+        position: sticky;
+        top: 0;
+        // left: 0;
+        // bottom: 0;
+        // right: 0;
+        justify-content: space-between;
+
+
+        .nav__right-menu,
+        .nav__left-menu {
+            display: flex;
+        }
+
+        padding: 0 3rem;
+    }
+}
+
+/* ---------------------------------- Tablet ---------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .nav {
+        display: flex;
+        align-content: center;
+        // position: absolute;
+        position: sticky;
+        top: 0;
+        // left: 0;
+        // bottom: 0;
+        // right: 0;
+        justify-content: space-between;
+
+
+        .nav__right-menu,
+        .nav__left-menu {
+            display: flex;
+        }
+
+        padding: 0 5rem;
+    }
+}
+
+/* ---------------------------------- Laptop ---------------------------------- */
+@media only screen and (min-width: 1024px) {
+    .nav {
+        display: flex;
+        align-content: center;
+        // position: absolute;
+        position: sticky;
+        top: 0;
+        // left: 0;
+        // bottom: 0;
+        // right: 0;
+        justify-content: space-between;
+
+
+        .nav__right-menu,
+        .nav__left-menu {
+            display: flex;
+        }
+
+        padding: 0 8rem;
+    }
+}

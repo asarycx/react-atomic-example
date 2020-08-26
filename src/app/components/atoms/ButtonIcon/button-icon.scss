@@ -1,0 +1,17 @@
+@import "../../../../assets/styles/_var.scss";
+
+.button-icon {
+    cursor: pointer;
+    padding: 7px 10px;
+    color: $color-dark;
+    font-size: 2em;
+    margin: auto;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        background-color: $color-light;
+    }
+}

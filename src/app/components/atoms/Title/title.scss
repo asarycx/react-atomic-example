@@ -1,0 +1,18 @@
+@import "../../../../assets/styles/_var.scss";
+
+.title {
+    color: $color-dark;
+    padding: 0;
+
+    &.light {
+        color: $color-light;
+    }
+
+    &.fail {
+        color: $color-fail;
+    }
+
+    &.success {
+        color: $color-success;
+    }
+}

@@ -1,0 +1,25 @@
+@import "../../../../../assets/styles/_var.scss";
+
+.label {
+    color: $color-dark;
+    margin: 5px 0;
+
+    &.light {
+        color: $color-light;
+    }
+
+    &.fail {
+        color: $color-fail;
+    }
+
+    &.success {
+        color: $color-success;
+    }
+
+    &.required {
+        &::after {
+            color: red;
+            content: " *";
+        }
+    }
+}
